@@ -69,7 +69,7 @@ opacity:1;
   background: rgba(0,0,0,0.8);
   border-radius: 4px;
   display:inline;
-  margin: 0px auto;
+  margin: 0 auto;
   font-size:12px;
   font-weight: bold;
 }
@@ -100,7 +100,7 @@ opacity:1;
   }
   #reviews img, #reviews iframe {
     width:100%;
-    margin: 0%;
+    margin: 0;
     float: left;
     text-align:center;
     display:inline;
@@ -121,7 +121,7 @@ opacity:1;
 }
 
 body {
- margin: 0px auto;
+ margin: 0 auto;
 }
 
 #copyright {
@@ -188,7 +188,7 @@ li {
 
 #logoIMG {
   width:200px; 
-  margin: 10px 0px;
+  margin: 10px 0;
 }
 
 .menu2-items, .nav-top-items{
@@ -263,7 +263,7 @@ li {
   background-color: white;
   position: fixed;
   right: 5px;
-  top:0px;
+  top:0;
   padding: 10px;
   color:#1a1a1a;  
 }
@@ -291,7 +291,7 @@ li {
   min-width: 200px;
   max-width: 300px;
   padding:15px;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 #orderOnlineBtn {
   font-weight: bold;
@@ -299,7 +299,7 @@ li {
   background-color:white;
   padding: 10px;
   width: 70%;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 #orderOnlineBtn:hover, .btn-default:hover {
   text-decoration: none; 
@@ -340,7 +340,7 @@ li {
   max-height:500px;
   height: auto;
   width: auto;
-  margin:0px; 
+  margin:0; 
 }
 
 #reservations { 
@@ -426,7 +426,7 @@ select {
 
 #contact img {
   width:100%;
-  padding:2% 0%; 
+  padding:2% 0; 
 }
 
 .overlay {
@@ -435,7 +435,7 @@ select {
   width: 100%;
   position: fixed;
   z-index:3;
-  padding:0px;
+  padding:0;
   top: 0;
   bottom: 0;
   left: 0;
@@ -478,7 +478,7 @@ select {
 
 .popup {
   text-align: center;
-  margin: 0px auto;
+  margin: 0 auto;
   padding: 20px;
   color: white;
   overflow: auto;
