@@ -4,7 +4,7 @@ $(document).ready(function() {
 $(".nav-top").fadeIn(1000, function()
     {
  /*$("").fadeIn(1000); */
-  $(".orderAd").animate({'opacity':'1'},1000).slideDown(3000); 
+  $(".orderAd").animate({'opacity':'1'},800).slideDown(3000); 
 });
 $(function() {
     $(window).scroll( function(){  
@@ -15,7 +15,7 @@ $(function() {
             bottom_of_window = bottom_of_window + 250;  
             if( bottom_of_window > bottom_of_object ){  
                 //$(this).animate({'opacity':'1'},400);
- $(this).animate({'opacity':'1'},400).slideDown(3000);       
+ $(this).animate({'opacity':'1'},600).slideDown(3000);       
             }
         }); 
     });
