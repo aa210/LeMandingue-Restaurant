@@ -115,9 +115,10 @@ opacity:1;
 }
 #aboutUs {
   padding: 6% 10%;
-  text-align:left;
+  text-align:justify;
   background-image:url("http://lemandinguephilly.com/aboutUs.jpg"); 
   background-size:cover;
+  font-weight: bold;
 }
 
 body {
@@ -142,7 +143,7 @@ font-size: 3.5em;
 }
 
 figcaption{
-    font-size:1em;
+    font-size:1.1em;
     font-weight:bold;
 }
 #gallery {
@@ -151,7 +152,17 @@ figcaption{
 
 
 h1{
-    font-size:4.7em;
+    font-size:5em;
+    margin-bottom:10px;
+}
+
+h4 {
+    font-size:2em;
+}
+
+
+h5 {
+    font-size:1.7em;
 }
 
 .home {
@@ -161,7 +172,7 @@ h1{
   background-repeat:repeat-x;
   background-color: #1a1a1a;
   color: white;
-padding: 20px 20px;
+padding: 20px 20px 70px;
   text-align:center;
   width:100%;
 }
@@ -188,7 +199,7 @@ li {
 
 #logoIMG {
   width:200px; 
-  margin: 10px 0;
+  margin: 10px 0 0;
 }
 
 .menu2-items, .nav-top-items{
@@ -209,6 +220,510 @@ li {
   position: fixed;
   top:0;
   //left:0;
+  color: white;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 1%;
+  width: 100%;
+}
+
+.mobileMenuBtn {
+  position:fixed;
+  left: 10px;
+  top:10px;
+  border-radius: 4px;
+  text-align: center;
+  font-size:30px;
+  background-color: #1a1a1a;
+  padding: 5px;
+  border:1px solid white;
+  color:white;
+  -webkit-backface-visibility: hidden;
+}
+
+#navbar {
+  background-color:none; 
+  border:none;
+  display:none;
+}
+
+.nav-top, .menu2 {
+  list-style-type: none; 
+  text-align: center;
+}
+
+.nav-top {
+  animation-delay: 3s;
+  display:none;
+}
+
+
+.nav-top-items:hover, .menu2-items:hover {
+  background: rgba(255,255,255,0.8);
+  -webkit-transition: background 500ms;
+   -moz-transition: background 500ms;
+    -ms-transition: background 500ms;
+     -o-transition: background 500ms;
+        transition: background 500ms;
+    color:#1a1a1a;
+   text-decoration:none;
+}
+
+.orderNowMobile {
+  font-size: 10px;
+  border-radius:10px;
+  background-color: white;
+  position: fixed;
+  right: 5px;
+  top:0px;
+  padding: 10px;
+  color:#1a1a1a;  
+}
+.orderNowMobile:hover {
+  text-decoration: none; 
+  color:white; 
+  cursor:pointer;
+  background-color:grey;
+   -webkit-transition: background-color, 500ms;
+   -moz-transition: background-color, 500ms;
+    -ms-transition: background-color, 500ms;
+     -o-transition: background-color, 500ms;
+        transition: background-color, 500ms;
+  -webkit-transition: color, 500ms;
+   -moz-transition: color, 500ms;
+    -ms-transition: color, 500ms;
+     -o-transition: color, 500ms;
+        transition: color, 500ms;
+}
+
+
+.orderAd {
+  background: rgba(0, 5, 0, 0.8);
+  color:white;
+  min-width: 200px;
+  max-width: 300px;
+  padding:15px;
+  margin: 0 auto;
+}
+#orderOnlineBtn {
+  font-weight: bold;
+  color: #1a1a1a;
+  background-color:white;
+  padding: 10px;
+  width: 70%;
+  margin: 0 auto;
+}
+#orderOnlineBtn:hover, .btn-default:hover {
+  text-decoration: none; 
+  color:white; 
+  cursor:pointer;
+  background-color:#1a1a1a;
+ -webkit-transition: background-color, 500ms;
+   -moz-transition: background-color, 500ms;
+    -ms-transition: background-color, 500ms;
+     -o-transition: background-color, 500ms;
+        transition: background-color, 500ms;
+  -webkit-transition: color, 500ms;
+   -moz-transition: color, 500ms;
+    -ms-transition: color, 500ms;
+     -o-transition: color, 500ms;
+        transition: color, 500ms;
+}
+
+#ourMenu{
+  padding: 10%;
+  text-align:center;
+  color: white;
+  background-image: url("http://lemandinguephilly.com/ourMenu.jpg");
+  background-size:cover;
+}
+
+.pdf {
+    border:2px solid #1a1a1a;
+    
+}
+
+.popup {
+    text-align:center;
+}
+
+.popup img {
+  max-width:100%;
+  max-height:500px;
+  height: auto;
+  width: auto;
+  margin:0px; 
+}
+
+#reservations { 
+  padding: 6% 10%;
+  text-align:center;
+  background-color:#1a1a1a;
+  color:white;
+}
+#reservations input, .form-control {
+    background:none; 
+    color:white;
+    
+}
+#reviews{
+  padding:6% 10%; 
+  background-image:url("http://lemandinguephilly.com/aboutUs.jpg"); 
+  background-size:cover;
+}
+input, select{
+    color:#1a1a1a;
+    
+}
+select {
+    display:inline;
+    
+}
+.socialBar {
+  background-color:#1a1a1a;
+  text-align:center;
+  //width:100%;
+  padding: 2%;
+}
+.socialBtns{
+    color:white; 
+    display:inline; 
+    text-decoration:none;
+    
+} 
+.socialBtns a{
+    color:white;
+    
+}
+.socialBar .fa{ 
+  text-decoration: none;
+  background:none; 
+  border-radius:100%; 
+  border:2px solid white;
+  padding:20px;
+  margin: auto;
+}
+
+.socialBar .fa:hover {
+  color:#1a1a1a;
+  background-color: white;
+-webkit-transition: background-color, 500ms;
+   -moz-transition: background-color, 500ms;
+    -ms-transition: background-color, 500ms;
+     -o-transition: background-color, 500ms;
+        transition: background-color, 500ms;
+ 
+}
+
+.uber {
+    text-align: center; 
+    padding: 6%; 
+    background-color:#1a1a1a; 
+    color:white;
+    
+}
+
+#uberEatsAd {
+  width:200px; 
+  border:1px solid white; 
+  border-radius:7px;
+  text-align:center;
+}
+
+#contact {
+  text-align: center;
+  background-color: white;
+  padding: 6% 10%;
+}
+
+#contact img {
+  width:100%;
+  padding:2% 0; 
+}
+
+.overlay {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+  position: fixed;
+  z-index:3;
+  padding:0px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(250, 255, 255, 0.6);
+  -moz-transition: opacity 500ms;
+  -webkit-transition: opacity 500ms;
+
+    -ms-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  overflow:auto;
+  
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup .close {
+  position: fixed;
+  top: 10px;
+  z-index:3;
+  left: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.popup a{
+    color:white; 
+    text-decoration: none;
+}
+.popup h2 a:hover {
+    color:white;
+}
+
+.popup {
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  color: white;
+  overflow: auto;
+  background: #000;
+  border: 1px solid grey;
+  border-radius: 5px;
+  width: 100%;
+  height:100%;
+  position: fixed;
+  transition: all 5s ease-in-out;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Parisienne|Delius+Swash+Caps');
+*{font-family:"Delius Swash Caps"}
+@media screen and (max-width:500px) { 
+.fadeIn1{ opacity:1;}
+.fadeInBlock{ opacity:1;}
+.pix{
+          width: 45%;
+          margin: 1%;
+          float:left; 
+         }
+.mobileMenuBtn{
+  -webkit-backface-visibility: hidden; 
+  z-index:4;
+  } 
+}
+@media screen and (max-width:737px) { 
+    
+#mapPic {
+    width:100%;
+    height: 250px;
+    }
+
+.couponPic {
+    width: 100%;
+    height: 150px;
+}
+
+    
+    .nav-top{visibility:hidden;}
+.mobileMenuBtn{
+  -webkit-backface-visibility: hidden; 
+  z-index:4;
+  }  
+.nav-top{display:none;font-size:1px;}
+.menu2 {display:none;}
+
+.fadeIn1{
+    opacity:1;
+}
+.fadeInBlock{
+    opacity:1;
+}
+.pix{
+          width: 45%;
+          margin: 1%;
+          float:left;
+          
+         }
+.pix img{width:99%; 
+border-radius: 5px;  
+opacity:1;
+    
+}
+#reviews .top, #reviews .bottom{
+   width: 100%;
+  }
+#reviews img, #reviews iframe {
+    width:100%;
+    margin: 0;
+    float: left;
+    text-align:center;
+    display:inline;
+  }
+  #reviews iframe {
+    height:300px;
+  }
+}
+
+@media screen and (min-width:738px) { 
+ .orderAd {opacity:.0;} .mobileMenuBtn{display:none;} 
+  .nav-top{visibility:visible;}
+  .fadeIn1{
+    opacity:0;
+}
+.fadeInBlock{
+    opacity:0;
+}
+
+.nav-top-items, .menu2-items {
+  padding:1%;
+  background: rgba(0,0,0,0.8);
+  border-radius: 4px;
+  display:inline;
+  margin: 0 auto;
+  font-size:12px;
+  font-weight: bold;
+}
+
+  .pix{
+          width: 14%;
+          margin: 1%;
+          float:left;        
+         }
+  .pix img{width:100%; border-radius: 5px;  opacity: .7;}
+.pix img:hover {
+  opacity: 1; 
+  -webkit-transition: opacity 500ms;
+   -moz-transition: opacity 500ms;
+    -ms-transition: opacity 500ms;
+     -o-transition: opacity 500ms;
+        transition: opacity 500ms;
+  }
+ #reviews .top{
+   width: 31%;
+   margin: 1%;
+   float: left;
+  }
+  #reviews .bottom{
+   width: 31%;
+   margin: 1%;
+   float: left;
+  }
+  #reviews img, #reviews iframe {
+    width:100%;
+    margin: 0;
+    float: left;
+    text-align:center;
+    display:inline;
+  }
+  .title{display:none;}
+   }
+
+/*everything else*/
+*{
+    box-sizing:border-box;
+    
+}
+#aboutUs {
+  padding: 6% 10%;
+  text-align:justify;
+  background-image:url("http://lemandinguephilly.com/aboutUs.jpg"); 
+  background-size:cover;
+  font-weight: bold;
+}
+
+body {
+ margin: 0 auto;
+}
+
+#copyright {
+    text-align: center; 
+    color: white; 
+    background-color:#1a1a1a;
+    
+}
+
+.title {
+background: rgba(0, 0, 0, 0.8); 
+display:inline; 
+padding:2px;
+border-radius:10px;
+position:relative;
+font-family:helvetica;
+font-size: 3.5em; 
+}
+
+figcaption{
+    font-size:1.2em;
+}
+#gallery {
+    padding:6% 10%;
+}
+
+
+.home {
+  position:relative;
+  z-index: 3;
+  background-image: url('http://lemandinguephilly.com/home2.jpg');
+  background-repeat:repeat-x;
+  background-color: #1a1a1a;
+  color: white;
+padding: 20px 20px 70px;
+  text-align:center;
+  width:100%;
+}
+
+
+i{
+  font-size:1.5em;  
+}
+
+
+#innerBorder {
+  border: 1px solid grey;
+  padding: 20px;
+  border-radius:7px;
+}
+
+#innerBorder h2{
+    font-size:2em;
+}
+
+li {
+    display:inline;
+}
+
+.logo { 
+    margin-bottom: 35px;
+}
+
+#logoIMG {
+  width:200px; 
+  margin: 10px 0 0;
+}
+
+.menu2-items, .nav-top-items{
+  text-decoration: none; 
+  color: white;
+}
+.menu2-items a:hover, .nav-top-items a:hover {
+  color:#1a1a1a;
+   -webkit-transition: color 500ms;
+   -moz-transition: color 500ms;
+    -ms-transition: color 500ms;
+     -o-transition: color 500ms;
+        transition: color 500ms;
+}
+
+.menu2 {
+  z-index: 1;
+  position: fixed;
+  top:0;
   color: white;
   background: rgba(0, 0, 0, 0.8);
   padding: 1%;
@@ -326,6 +841,10 @@ li {
   background-size:cover;
 }
 
+#ourMenu h4{
+    font-weight:bold;
+}
+
 .pdf {
     border:2px solid #1a1a1a;
     
@@ -370,7 +889,6 @@ select {
 .socialBar {
   background-color:#1a1a1a;
   text-align:center;
-  //width:100%;
   padding: 2%;
 }
 .socialBtns{
@@ -408,7 +926,9 @@ select {
     padding: 6%; 
     background-color:#1a1a1a; 
     color:white;
-    
+}
+.uber h3{
+    font-weight:bold;
 }
 
 #uberEatsAd {
@@ -422,6 +942,10 @@ select {
   text-align: center;
   background-color: white;
   padding: 6% 10%;
+}
+
+#contact h4{
+    font-weight:bold;
 }
 
 #contact img {
@@ -489,6 +1013,10 @@ select {
   height:100%;
   position: fixed;
   transition: all 5s ease-in-out;
+}
+
+#titleFont {
+    font-size:1.2em;
 }
 
 
